@@ -1,0 +1,16 @@
+1. git init
+2. git add . | git add README.md(we use add . to add every file in the folder to the .git folder | add README.md to add a read me file)
+3. git commit -m "first commit"
+4. git remote add origin https://github.com...
+5. git remote set-url origin https://USER:<MYTOKEN>@github.com/USER/REPO.git
+		<MYTOKEN>=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
+		USER=anania-g
+		REPO.git=git-practice.git
+6. git push
+7. git push --set-upstream origin master
+
+8. git clone url
+
+
+------------------------------------
+9. git checkout branchname

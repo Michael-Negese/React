@@ -6,19 +6,11 @@ class Message extends Component {
         this.state = {
             message: "Welcome Visitor",
             button:<button onClick= {() =>this.changeMessage()}>Subscribe</button>,
-            button2:<button onClick= {() =>this.changeMessagebutton()}>Subscribed</button>
         }
     } 
     changeMessage(){
         this.setState({
             message: 'Thank you for subscribing',
-            button:<button onClick= {() =>this.changeMessage()}>Subscribed</button>
-        })
-    }
-    changeMessagebutton(){
-        this.setState({
-            message: 'Welcome vistors',
-            button:<button onClick= {() =>this.changeMessage()}>Subscribe</button>
         })
     }
   render() {
